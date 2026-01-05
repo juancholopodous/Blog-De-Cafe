@@ -96,3 +96,11 @@ img { max-width: 100%; }
     font-size: 1.8rem;
     color: var(--blanco );
 }
+
+@media (min-width: 768px) {
+    .contenido-principal {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /*De tres partes, la primera toma dos terceras partes y la segunda toma una*/
+        gap: 4rem;
+    }
+}
