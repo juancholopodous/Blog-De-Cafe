@@ -72,13 +72,27 @@ img { max-width: 100%; }
         justify-content: space-between;
         align-items: center;
     }
+    .header__texto { margin-top: 15rem; }
 }
 .logo {
-
+    color: var(--blanco);
 }
 .logo__nombre {
-
+    font-weight: 400;
 }
 .logo__bold {
-    
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+        .navegacion {
+            display: flex;
+            gap: 2rem;
+        }
+}
+.navegacion__enlace {
+    display: block; /*Para que los elementos estén alineados uno arriba del otro*/
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco );
 }
