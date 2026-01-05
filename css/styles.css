@@ -51,3 +51,17 @@ img { max-width: 100%; }
 .centrar-texto {
     text-align: center;
 }
+
+/*      Header           */
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover; /* Para que tome todo el espacio disponible */
+    background-repeat: no-repeat; /* No se repite el fondo si la imagen no lo cobre */
+    background-position: center center; /* Alineación veritical y horizontal en centro para ambos */
+}
+.header__texto {
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem;
+}
