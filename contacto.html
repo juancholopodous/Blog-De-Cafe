@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafé</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" as="stylesheet">
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra"><!-- Prmer Bloque -->
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a><!-- Segundo Bloque de navegación -->
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="cursos.html">Cursos</a>
+                    <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+                </nav><!-- Tercer Bloque -->
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2> <!-- Todos los headigs agregan algo de margen -->
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3>
+        <div class="contacto-bg"></div>
+        
+        <form class="formulario" action="">
+            <div class="campo">
+                <label for="nombre1">Nombre</label>
+                <input type="text" placeholder="Tu Nombre" id="nombre1"> <!--El id solo se puede utilizar una vez por hoja html, permite reposicionar el cursor en el campo-->
+            </div>
+            <div class="campo">
+                <label for="email1">E-mail</label>
+                <input type="email" placeholder="Tu E-mail " id="email1"> <!--El id solo se puede utilizar una vez por hoja html, permite reposicionar el cursor en el campo-->
+            </div>
+            <div class="campo">
+                <label for="mensaje1">Mensaje</label>
+                <textarea name="" id="mensaje1"></textarea><!--El id solo se puede utilizar una vez por hoja html, permite reposicionar el cursor en el campo--> 
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario"> <!--El id solo se puede utilizar una vez por hoja html, permite reposicionar el cursor en el campo-->
+            </div>
+        </form>   
+    </main>
+
+    <footer class="footer">
+                <!-- SEGMENTO COPIADO (gracias a BEM) DESDE EL INICIO DEL HTML -->
+        <div class="contenedor">
+            <div class="barra"><!-- Prmer Bloque -->
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a><!-- Segundo Bloque de navegación -->
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="cursos.html">Cursos</a>
+                    <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+                </nav><!-- Tercer Bloque -->
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
