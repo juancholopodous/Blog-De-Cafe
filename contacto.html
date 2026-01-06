@@ -38,17 +38,33 @@
         <div class="contacto-bg"></div>
         
         <form class="formulario" action="">
+            
             <div class="campo">
-                <label for="nombre1">Nombre</label>
-                <input type="text" placeholder="Tu Nombre" id="nombre1"> <!--El id solo se puede utilizar una vez por hoja html, permite reposicionar el cursor en el campo-->
+                <label class="campo__label" for="nombre1">Nombre</label>
+                <input 
+                    class="campo__field"
+                    type="text"
+                    placeholder="Tu Nombre"
+                    id="nombre1"
+                > <!--El id solo se puede utilizar una vez por hoja html, permite reposicionar el cursor en el campo-->
             </div>
+
             <div class="campo">
-                <label for="email1">E-mail</label>
-                <input type="email" placeholder="Tu E-mail " id="email1"> <!--El id solo se puede utilizar una vez por hoja html, permite reposicionar el cursor en el campo-->
+                <label class="campo__label" for="email1">E-mail</label>
+                <input 
+                    class="campo__field"
+                    type="email"
+                    placeholder="Tu E-mail"
+                    id="email1" 
+                ><!--El id solo se puede utilizar una vez por hoja html, permite reposicionar el cursor en el campo-->
             </div>
+
             <div class="campo">
-                <label for="mensaje1">Mensaje</label>
-                <textarea name="" id="mensaje1"></textarea><!--El id solo se puede utilizar una vez por hoja html, permite reposicionar el cursor en el campo--> 
+                <label class="campo__label" for="mensaje1">Mensaje</label>
+                <textarea
+                    class="campo__field campo__field--textarea" 
+                    name="" id="mensaje1"
+                ></textarea><!--El id solo se puede utilizar una vez por hoja html, permite reposicionar el cursor en el campo--> 
             </div>
 
             <div class="campo">
