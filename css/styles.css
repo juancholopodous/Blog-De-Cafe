@@ -129,11 +129,16 @@ img { max-width: 100%; }
     text-transform: uppercase; /*MAYúSCULAS*/
     font-weight: 700; /*Fuente en Negritas*/
     margin-bottom: 2rem;
+    border: none;
 }
+
 @media (min-width: 768px) {
     .boton {
         display: inline-block; /*IMPORTANTE: A diferencia de un 'display inline' este si permite colocar atributos como margin-bottom ó width*/
     }
+}
+.boton:hover {
+    cursor: pointer;
 }
 .boton--primario {
     background-color: var(--negro);
@@ -204,4 +209,32 @@ img { max-width: 100%; }
         height: 40rem;
         background-size: cover;
         background-repeat: no-repeat;
-    }
+}
+
+.formulario {
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+}
+
+.campo__field {
+    flex: 1;
+    border: 1px solid var(--gris);
+    width: 100%;
+}
+
+.campo__field--textarea {
+    height: 20rem;
+}
