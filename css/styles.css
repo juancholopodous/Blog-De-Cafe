@@ -55,8 +55,14 @@ img { max-width: 100%; }
 }
 
 /*      Header           */
-.header {
+.webp .header { /* Si acepta webp tomará la imagen de esta ruta */
+    background-image: url(../img/banner.webp);
+}
+.no-webp .header { /* Si no acepta la imagen tomará la imagen desde esta otra ruta */
     background-image: url(../img/banner.jpg);
+}
+
+.header {
     height: 60rem;
     background-size: cover; /* Para que tome todo el espacio disponible */
     background-repeat: no-repeat; /* No se repite el fondo si la imagen no lo cobre */
