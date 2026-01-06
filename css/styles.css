@@ -125,6 +125,15 @@ img { max-width: 100%; }
     margin-bottom: 0;
 }
 
+@media (min-width: 468px) {
+    .sidebar {
+        margin-top: 10rem;
+    }
+    .sidebar__titulo {
+        text-align: center;
+    }
+}
+
 .boton {
     display: block;
     font-family: var(--fuenteHeading);
