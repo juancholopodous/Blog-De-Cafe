@@ -219,6 +219,21 @@ img { max-width: 100%; }
 
 
 /*      CONTACTOO         */
+.error {
+    background-color: rgb(204, 76, 76);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+.enviado {
+    background-color: rgb(41, 180, 75);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+
 .contacto-bg {
         background-image: url(../img/contacto.jpg);
         height: 40rem;
